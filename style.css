@@ -1,0 +1,23 @@
+.wrapper {
+    max-width: 1000px;
+    border: 10px black;
+    margin: 0 auto;
+    
+}
+
+#balloon-gallery div{
+    background: #ff0000;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 2.5px 5 px 2.5px 0px;
+}
+
+#you-win {
+    display: none;
+    font-size:100px;
+}
