@@ -4,8 +4,7 @@
 }
 
 .balloon {
-    background: #ff0000;
-    height: 150px;
+    background: #ff0000; height: 150px;
     width: 150px;
     font-size: 24px;
     border-radius: 100%;
@@ -20,5 +19,5 @@
 
 #you-win {
     display: none;
-    font-size: 100px;
+    font-size: 50;
 }
