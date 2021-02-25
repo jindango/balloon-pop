@@ -8,8 +8,8 @@ function handleBalloonClick(e) {
     e.target.removeEventListener('click', handleBalloonClick);
 
     if (balloons_popped === number_popped_to_win) {
-        document.getElementById('balloon-gallery').innerHTML = '';
-        let message = document.getElementById('you-win').style.displaya = '';
+        document.getElementById('balloon-gallery').innerHTML = "";
+        document.getElementById('you-win').style.display = "block";
     }
 }
 
